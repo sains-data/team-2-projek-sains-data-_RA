@@ -562,7 +562,7 @@ def load_image_base64(path):
 
 def show_hero():
     try:
-        logo64 = load_image_base64("sainsdataaa.jpg")
+        logo64 = load_image_base64("assets/sainsdataaa.jpg")
         logo_src = f"data:image/png;base64,{logo64}" if logo64 else PLACEHOLDER
     except:
         logo_src = PLACEHOLDER
